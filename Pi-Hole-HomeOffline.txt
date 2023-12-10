@@ -1,0 +1,87 @@
+# Title: Home Offline DNS Block List
+#
+# This is a collection of hosts that Home Offline have found applications to be communicating with or via proactive research.
+# The hosts are telemetry, ads-servers or (spy)services that should not be used and should be blocked.
+# The list was created since they were not blocked by my active subscriptions in Pi-Hole,
+# they could possible be found in other lists aswell.
+# If you use spyservices such as safebrowsing, google smtp etc. this list _will_ break your internet, it is what it is.
+#
+# Date: 2023-12-10
+#
+# Project home page: https://github.com/HomeOffline/DNS-Block-List-for-Pi-Hole
+# Host location: http://
+#
+# ===============================================================
+
+#Varius Spyservices
+0.0.0.0 logservice.hicloud.com
+0.0.0.0 logservice1.hicloud.com
+0.0.0.0 logbak.hicloud.com
+0.0.0.0 analytics-api.samsunghealthcn.com
+0.0.0.0 widgets.pinterest.com
+0.0.0.0 analytics.facebook.com
+0.0.0.0 star.c10r.facebook.com
+0.0.0.0	www-alv.google-analytics.com
+0.0.0.0	alv.google-analytics.com
+0.0.0.0	www.google-analytics.com
+0.0.0.0	google-analytics.com
+0.0.0.0	ebaystatic.com
+0.0.0.0 analytics-api.samsunghealthcn.com
+0.0.0.0 insights.samsung.com
+0.0.0.0 analytics.pinterest.com
+0.0.0.0 analytics.pointdrive.linkedin.com
+0.0.0.0 sitefinder.verisign.com
+0.0.0.0 sitefinder-idn.verisign.com
+0.0.0.0 www.google-analytics.l.google.com
+0.0.0.0 auto.search.msn.com
+0.0.0.0 mimir.vivaldi.com
+0.0.0.0 detectportal.firefox.com
+0.0.0.0 location.services.mozilla.com
+0.0.0.0 assets.mozilla.net
+
+#Samsung spyservices
+0.0.0.0 dir-apis.samsungdm.com
+0.0.0.0 samsungnewsapi.picks.my
+
+#Microsoft spyservices
+0.0.0.0 nav.smartscreen.microsoft.com
+0.0.0.0 checkappexec.microsoft.com
+0.0.0.0 ns1.msedge.net
+0.0.0.0 ns2.msedge.net
+0.0.0.0 ns3.msedge.net
+0.0.0.0 ns4.msedge.net
+0.0.0.0 b-0008.b-msedge.net
+0.0.0.0 win10.ipv6.microsoft.com
+
+#Google spyservices
+0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 footprints.googleapis.com
+0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 history.google.com
+0.0.0.0 nearbydevices-pa.googleapis.com
+0.0.0.0 optimizationguide-pa.googleapis.com
+
+#Bluestacks spyservices
+0.0.0.0 la-in-f188.1e100.net
+0.0.0.0 cloud.bluestacks.com
+
+#EPIM spyservices
+0.0.0.0 arn11s11-in-f3.1e100.net
+0.0.0.0 firebird.essentialpim.com
+
+#Piriform spyservices
+0.0.0.0 license.piriform.com
+0.0.0.0 ncc.avast.com.edgesuite.net
+
+#Varius spyservices
+0.0.0.0 client.iebetanialaargentina.edu.co
+0.0.0.0 logs.netflix.com
+
+#Google SMTP & DNS-servers
+0.0.0.0 smtp.gmail.com
+0.0.0.0 alt3.gmail-smtp-in.l.google.com
+0.0.0.0 gmail-smtp-in.l.google.com
+0.0.0.0 alt4.gmail-smtp-in.l.google.com
+0.0.0.0 alt2.gmail-smtp-in.l.google.com
+0.0.0.0 alt1.gmail-smtp-in.l.google.com
+0.0.0.0 dns.google.com
